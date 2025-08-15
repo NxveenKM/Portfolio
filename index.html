@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Kumar Meena - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Naveen Kumar Meena</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <video id="heroVideo" autoplay muted poster="my-fallback-image.jpg" class="hero-video">
+                <source src="my-background-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <h1 class="animated-element">Web Developer & UI/UX Designer</h1>
+                <p class="animated-element">Building beautiful and functional digital experiences.</p>
+                <a href="#projects" class="cta-button animated-element">View My Work</a>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <img src="photo.jpg" alt="Naveen Kumar Meena" class="profile-photo animated-element">
+                <h2 class="animated-element">About Me</h2>
+                <p class="animated-element">Hello! I'm Naveen Kumar Meena, a passionate web developer with a knack for creating clean and elegant user interfaces. I have experience in HTML, CSS, JavaScript, and various frameworks like React. I love solving problems and turning ideas into reality.</p>
+                <h3 class="animated-element">My Skills</h3>
+                <ul class="skills-list animated-element">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Canva</li>
+                    <li>UI/UX Design</li>
+                </ul>
+                <a href="naveen-kumar-meena-resume.pdf" class="cta-button animated-element" download>View Resume</a>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="projects" class="projects-section">
+            <h2 class="animated-element">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card animated-element">
+                    <img src="Cart.jpg" alt="Smart Shopping Cart">
+                    <h3>Smart Shopping Cart</h3>
+                    <p>A smart shopping system that uses IoT to provide personalized, location-based deals and product information to customers in real-time.</p>
+                    <a href="project-details-1.html" class="project-link">Learn More</a>
+                </div>
+                <div class="project-card animated-element">
+                    <img src="Rentals.jpg" alt="Beat The Winds">
+                    <h3>Beat The Winds</h3>
+                    <p>An innovative platform streamlining the vehicle rental process with a focus on user experience and efficiency.</p>
+                    <a href="project-details-2.html" class="project-link">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="contact" class="contact-section">
+            <h2 class="animated-element">Get In Touch</h2>
+            <p class="animated-element">I'm currently open to new opportunities. Feel free to reach out!</p>
+            <form action="https://formspree.io/f/xjkolzvd" method="POST" class="animated-element">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div class="social-links animated-element">
+                <a href="https://www.linkedin.com/in/naveen-kumar-meena-032125256/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/NxveenKM" target="_blank">GitHub</a>
+                <a href="mailto:2022pcecrnaveen038@poornima.org">Email</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Naveen Kumar Meena. All Rights Reserved.</p>
+    </footer>
+
+    <script src="animations.js"></script>
+    <script src="video-animation.js"></script>
+</body>
+</html>
