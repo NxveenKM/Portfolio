@@ -25,7 +25,7 @@ Welcome to the GitHub repository for my personal portfolio website. This project
 
 You can view the live version of this portfolio here:
 
-[**https://NxveenKM.github.io/Portfolio/**](https://NxveenKM.github.io/Portfolio/)
+<https://NxveenKM.github.io/Portfolio/>
 
 If you'd like to run this project locally, simply clone this repository to your computer and open the `index.html` file in your web browser.
 
